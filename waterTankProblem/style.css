@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f7fb;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+svg {
+  margin-top: 30px;
+  width: 800px;
+  height: 300px;
+  background: white;
+  border: 1px solid #ccc;
+}

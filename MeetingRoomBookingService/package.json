@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@prisma/client": "^7.7.0",
     "dayjs": "^1.11.20",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "prisma": "file:../../../../client",
+    "prisma": "^7.7.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
